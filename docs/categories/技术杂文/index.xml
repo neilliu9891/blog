@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术杂文 on a gopher‘s and python&#39;s home</title>
+    <link>https://github.com/neilliu9891.io/blog/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/</link>
+    <description>Recent content in 技术杂文 on a gopher‘s and python&#39;s home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Oct 2020 19:28:21 +0800</lastBuildDate>
+    
+        <atom:link href="https://github.com/neilliu9891.io/blog/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang Private Lab</title>
+      <link>https://github.com/neilliu9891.io/blog/2020/10/golang-private-lab/</link>
+      <pubDate>Mon, 12 Oct 2020 19:28:21 +0800</pubDate>
+      
+      <guid>https://github.com/neilliu9891.io/blog/2020/10/golang-private-lab/</guid>
+      <description>Golang Private Lab 从gitlab私有仓库获取golang依赖包 例如golang go.mod文件中有如下配置信息 module agent go 1.13 require ( ... moove/libvirt/libvirt-go v1.0.0 ) replace moove/libvirt/libvirt-go =&amp;gt; 10.0.45.221/moove/libvirt-go v1.0.5 # 替换成本地</description>
+    </item>
+    
+    <item>
+      <title>Golang IDE工具搭建（neovim篇）</title>
+      <link>https://github.com/neilliu9891.io/blog/2020/10/20201005-nvim/</link>
+      <pubDate>Mon, 05 Oct 2020 21:00:00 +0800</pubDate>
+      
+      <guid>https://github.com/neilliu9891.io/blog/2020/10/20201005-nvim/</guid>
+      <description>种草很久的neovim工具使用 由于一直羡慕大神们用vim工具快速的编辑代码，并且羡慕能够不断优化适合自己的IDE工具。所以选择了neovim</description>
+    </item>
+    
+    <item>
+      <title>Github ShowPicture</title>
+      <link>https://github.com/neilliu9891.io/blog/2020/10/20201005-githubshowpicture/</link>
+      <pubDate>Mon, 05 Oct 2020 13:18:30 +0800</pubDate>
+      
+      <guid>https://github.com/neilliu9891.io/blog/2020/10/20201005-githubshowpicture/</guid>
+      <description>github 显示照片 在访问别人的github项目时，阅读Readme经常发现不能显示照片。后来查看发现是由于picture所存储的图床地址不能通过dn</description>
+    </item>
+    
+    <item>
+      <title>我的第一篇Blog:It&#39;s a draft</title>
+      <link>https://github.com/neilliu9891.io/blog/2020/09/20200928-draft/</link>
+      <pubDate>Mon, 28 Sep 2020 00:41:20 +0800</pubDate>
+      
+      <guid>https://github.com/neilliu9891.io/blog/2020/09/20200928-draft/</guid>
+      <description>It&amp;rsquo;s a draft 他只是个草稿！！！ 没想到我的第一篇博客诞生的如此坎坷，Hugo 是一个很便的博客搭建程序，怎奈自己的技术水平有限，导致 About 页面一直刷不出来</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://github.com/neilliu9891.io/blog/about/</link>
+      <pubDate>Mon, 28 Sep 2020 00:08:02 +0800</pubDate>
+      
+      <guid>https://github.com/neilliu9891.io/blog/about/</guid>
+      <description>A gopher’s and python&amp;rsquo;s home 欢迎访问我们博客，下面是我的简单介绍: 普通码农 一名不断迭代的普通码农，希望有一颗持之以恒的心。 逗比一枚 自嘲也是一种美</description>
+    </item>
+    
+  </channel>
+</rss>
