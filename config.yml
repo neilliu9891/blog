@@ -1,4 +1,4 @@
-baseURL: https://github.com/neilliu9891.io/blog/docs
+baseURL: https://github.com/neilliu9891.io/blog
 theme: blog-themes
 title: a gopher‘s and python's home
 defaultContentLanguage: en  # en/zh/...
