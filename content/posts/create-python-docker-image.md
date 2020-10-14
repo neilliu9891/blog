@@ -3,7 +3,7 @@ title: "Create Python Docker Image"
 date: 2020-10-14T07:07:11+08:00
 tags: ["docker"]
 categories: ["技术杂谈"]
-draft: true
+draft: fasle
 ---
 
 # Create Python Docker Image
@@ -94,7 +94,7 @@ CMD [/bin/bash]
 2. 执行生成镜像命令
 
 ```
-docker -f Dockerfile . imagesname:tag
+docker -f Dockerfile . -t imagesname:tag
 ```
 
 ### 推送镜像到远端仓库
@@ -102,10 +102,16 @@ docker -f Dockerfile . imagesname:tag
 1. 给镜像打远端仓库的tag
 
 ```
+docker tag centos7.8-python3.7.9:latest 10.254.7.1:5000/imagesname:tag
 
 ```
 
 2. 执行push命令推送镜像
+
+```
+docker push 10.254.7.1:5000/imagesname:tag
+
+```
 
 ## 如何在容器内运行systemctl命令以及后台运行服务
 
