@@ -88,5 +88,9 @@ git config --global url."git@10.0.45.221:".insteadof "http://10.0.45.221/"
 go env -w GO111MODULE=on  # 重点，启用go mod
 go env -w GOPRIVATE="10.0.45.221" # 使用私有库，
 go get -u -v -insecure 10.0.45.221/moove/libvirt-go@latest # 获取libvirt-go的库
-![go env](/images/image_2020-10-12-20-36-49.png)```
+```
+**提示：go get 操作 -insecure表示使用http方式请求，lastest表示获取最新版本，但是可能go.mod中需要的并不是lastest版本，所以此处要指定对版本。操作的目的是手动先下载下来版本，之后go build时就不会自动下载了。**
+**go build去下载时都是采用https的方式，由于private lab可能不支持https所以导致下载失败。提示类似错误：go: moove/uni-network/ovn-store/go-ovn@v1.0.2: unrecognized import path "10.0.45.221/moove/uni-network/ovn-store/go-ovn" (https fetch: Get https://10.0.45.221/moove/uni-network/ovn-store/go-ovn?go-get=1: dial tcp 10.0.45.221:443: connect: no route to host)**
+
+![go env](/images/image_2020-10-12-20-36-49.png)
 重点是配置开启MODULE模式，以及配置私有golang仓库的地址
