@@ -120,7 +120,7 @@ params:
       url: favicon.ico
     title: a gopher's and python's home # 页面title
     favicon: favicon.ico
-    board: <p>你不想说点儿什么在走吗~</p> # 公告牌
+    board: <p>做人嘛！最重要的就是开心啦~</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
